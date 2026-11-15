@@ -1,0 +1,18 @@
+diff --git a/pandas/core/arrays/integer.py b/pandas/core/arrays/integer.py
+index 0441c315f1..c7b244f90e 100644
+--- a/pandas/core/arrays/integer.py
++++ b/pandas/core/arrays/integer.py
+@@ -179,7 +179,12 @@ def coerce_to_array(
+         raise TypeError("values must be a 1D list-like")
+ 
+     if mask is None:
+-        mask = libmissing.is_numeric_na(values)
++        if is_integer_dtype(values):
++            mask = np.zeros(len(values), dtype=bool)
++        elif is_float_dtype(values):
++            mask = np.isnan(values)
++        else:
++            mask = libmissing.is_numeric_na(values)
+     else:
+         assert len(mask) == len(values)
+ 

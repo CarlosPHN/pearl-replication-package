@@ -1,0 +1,13 @@
+diff --git a/pandas/core/arrays/datetimes.py b/pandas/core/arrays/datetimes.py
+index 5b540dcce5..62582f8377 100644
+--- a/pandas/core/arrays/datetimes.py
++++ b/pandas/core/arrays/datetimes.py
+@@ -635,7 +635,7 @@ class DatetimeArray(dtl.DatetimeLikeArrayMixin, dtl.TimelikeOps, dtl.DatelikeOps
+             Returns None when the array is tz-naive.
+         """
+         # GH 18595
+-        return getattr(self.dtype, "tz", None)
++        return getattr(self._dtype, "tz", None)
+ 
+     @tz.setter
+     def tz(self, value):

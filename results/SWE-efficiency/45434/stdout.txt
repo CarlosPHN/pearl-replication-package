@@ -1,0 +1,1664 @@
+[WORKLOAD] 10 measured repetitions
+[BASELINE] Letting the machine settle for 60s before the idle baseline
+[BASELINE] Measuring idle power for 60s with power/energy-pkg/
+[BASELINE] Idle energy 384.71 J over 60.0015139s -> 6.412 W
+[WORKLOAD] Letting the machine settle for 60s before the measured repetition
+[WORKLOAD] (1/1) $ docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.before.run1.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+[WORKLOAD] cwd: /testbed
+[WORKLOAD] status=PASSED exit_code=0 duration=6.685s
+py-spy> Sampling process 100 times a second. Press Control-C to exit.
+Mean: 0.008556548309934442
+Std Dev: 0.0015754227897005623
+py-spy> Stopped sampling because process exited
+py-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.before.run1.speedscope.json'. Samples: 655 Errors: 0
+py-spy> Visit https://www.speedscope.app/ to view
+ Performance counter stats for 'system wide':
+            216.23 Joules power/energy-pkg/                                           
+       6.622806766 seconds time elapsed
+[WORKLOAD] Letting the machine settle for 60s before the measured repetition
+[WORKLOAD] (1/1) $ docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.before.run2.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+[WORKLOAD] cwd: /testbed
+[WORKLOAD] status=PASSED exit_code=0 duration=6.435s
+py-spy> Sampling process 100 times a second. Press Control-C to exit.
+Mean: 0.008612922369902663
+Std Dev: 0.001522322413389297
+py-spy> Stopped sampling because process exited
+py-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.before.run2.speedscope.json'. Samples: 639 Errors: 0
+py-spy> Visit https://www.speedscope.app/ to view
+ Performance counter stats for 'system wide':
+            205.55 Joules power/energy-pkg/                                           
+       6.382862178 seconds time elapsed
+[WORKLOAD] Letting the machine settle for 60s before the measured repetition
+[WORKLOAD] (1/1) $ docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.before.run3.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+[WORKLOAD] cwd: /testbed
+[WORKLOAD] status=PASSED exit_code=0 duration=6.376s
+py-spy> Sampling process 100 times a second. Press Control-C to exit.
+Mean: 0.008532884779961024
+Std Dev: 0.0016845595828569565
+py-spy> Stopped sampling because process exited
+py-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.before.run3.speedscope.json'. Samples: 617 Errors: 0
+py-spy> Visit https://www.speedscope.app/ to view
+ Performance counter stats for 'system wide':
+            204.47 Joules power/energy-pkg/                                           
+       6.325892636 seconds time elapsed
+[WORKLOAD] Letting the machine settle for 60s before the measured repetition
+[WORKLOAD] (1/1) $ docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.before.run4.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+[WORKLOAD] cwd: /testbed
+[WORKLOAD] status=PASSED exit_code=0 duration=6.366s
+py-spy> Sampling process 100 times a second. Press Control-C to exit.
+Mean: 0.008811517499962064
+Std Dev: 0.0019407330858487732
+py-spy> Stopped sampling because process exited
+py-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.before.run4.speedscope.json'. Samples: 634 Errors: 0
+py-spy> Visit https://www.speedscope.app/ to view
+ Performance counter stats for 'system wide':
+            207.76 Joules power/energy-pkg/                                           
+       6.307886332 seconds time elapsed
+[WORKLOAD] Letting the machine settle for 60s before the measured repetition
+[WORKLOAD] (1/1) $ docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.before.run5.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+[WORKLOAD] cwd: /testbed
+[WORKLOAD] status=PASSED exit_code=0 duration=6.328s
+py-spy> Sampling process 100 times a second. Press Control-C to exit.
+Mean: 0.008993267749865481
+Std Dev: 0.0018305833712237171
+py-spy> Stopped sampling because process exited
+py-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.before.run5.speedscope.json'. Samples: 619 Errors: 0
+py-spy> Visit https://www.speedscope.app/ to view
+ Performance counter stats for 'system wide':
+            207.13 Joules power/energy-pkg/                                           
+       6.267497156 seconds time elapsed
+[WORKLOAD] Letting the machine settle for 60s before the measured repetition
+[WORKLOAD] (1/1) $ docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.before.run6.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+[WORKLOAD] cwd: /testbed
+[WORKLOAD] status=PASSED exit_code=0 duration=6.205s
+py-spy> Sampling process 100 times a second. Press Control-C to exit.
+Mean: 0.008880229169990343
+Std Dev: 0.001852529754008903
+py-spy> Stopped sampling because process exited
+py-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.before.run6.speedscope.json'. Samples: 600 Errors: 1
+py-spy> Visit https://www.speedscope.app/ to view
+ Performance counter stats for 'system wide':
+            205.65 Joules power/energy-pkg/                                           
+       6.144444576 seconds time elapsed
+[WORKLOAD] Letting the machine settle for 60s before the measured repetition
+[WORKLOAD] (1/1) $ docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.before.run7.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+[WORKLOAD] cwd: /testbed
+[WORKLOAD] status=PASSED exit_code=0 duration=6.274s
+py-spy> Sampling process 100 times a second. Press Control-C to exit.
+Mean: 0.009095972840113972
+Std Dev: 0.0020250669522807953
+py-spy> Stopped sampling because process exited
+py-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.before.run7.speedscope.json'. Samples: 617 Errors: 0
+py-spy> Visit https://www.speedscope.app/ to view
+ Performance counter stats for 'system wide':
+            207.37 Joules power/energy-pkg/                                           
+       6.220085723 seconds time elapsed
+[WORKLOAD] Letting the machine settle for 60s before the measured repetition
+[WORKLOAD] (1/1) $ docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.before.run8.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+[WORKLOAD] cwd: /testbed
+[WORKLOAD] status=PASSED exit_code=0 duration=6.323s
+py-spy> Sampling process 100 times a second. Press Control-C to exit.
+Mean: 0.008662083220115165
+Std Dev: 0.0017108197558663493
+py-spy> Stopped sampling because process exited
+py-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.before.run8.speedscope.json'. Samples: 626 Errors: 0
+py-spy> Visit https://www.speedscope.app/ to view
+ Performance counter stats for 'system wide':
+            206.96 Joules power/energy-pkg/                                           
+       6.253806486 seconds time elapsed
+[WORKLOAD] Letting the machine settle for 60s before the measured repetition
+[WORKLOAD] (1/1) $ docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.before.run9.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+[WORKLOAD] cwd: /testbed
+[WORKLOAD] status=PASSED exit_code=0 duration=6.198s
+py-spy> Sampling process 100 times a second. Press Control-C to exit.
+Mean: 0.008741415279910143
+Std Dev: 0.0015123394840475285
+py-spy> Stopped sampling because process exited
+py-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.before.run9.speedscope.json'. Samples: 614 Errors: 0
+py-spy> Visit https://www.speedscope.app/ to view
+ Performance counter stats for 'system wide':
+            204.98 Joules power/energy-pkg/                                           
+       6.141435584 seconds time elapsed
+[WORKLOAD] Letting the machine settle for 60s before the measured repetition
+[WORKLOAD] (1/1) $ docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.before.run10.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+[WORKLOAD] cwd: /testbed
+[WORKLOAD] status=PASSED exit_code=0 duration=6.339s
+py-spy> Sampling process 100 times a second. Press Control-C to exit.
+Mean: 0.008678583319924655
+Std Dev: 0.0018188567343038204
+py-spy> Stopped sampling because process exited
+py-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.before.run10.speedscope.json'. Samples: 595 Errors: 0
+py-spy> Visit https://www.speedscope.app/ to view
+ Performance counter stats for 'system wide':
+            207.74 Joules power/energy-pkg/                                           
+       6.278815764 seconds time elapsed
+[WORKLOAD] Workload executed successfully: 10/10 run(s) exited 0
+[WORKLOAD] Top methods by self time
+   Self time  Method                                   Location
+      4.500s  coerce_to_array                          /testbed/pandas/core/arrays/integer.py:182
+      0.541s  setup                                    /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py:10
+      0.434s  _values_for_argsort                      /testbed/pandas/core/arrays/integer.py:318
+      0.395s  _amin                                    /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/core/_methods.py:45
+      0.027s  _any                                     /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/core/_methods.py:58
+[WORKLOAD] Machine energy: 207.384 J (mean of 10 repetitions)
+[WORKLOAD] Idle sleep: 6.412 W * 6.295s = 40.361 J
+[WORKLOAD] Workload energy: 167.025 J (machine - idle sleep)
+[RUN LOG] benchmark-baseline     deterministic   783.64s
+[SNAPSHOT] Keeping the baseline as the reference to beat
+[SNAPSHOT] Up to 3 round(s) per method, across 1 method(s), each measured and compared against the one before it
+[SNAPSHOT] The next run writes its profile as 'pandas-dev__pandas-45434.iter1.'
+[RUN LOG] snapshot               deterministic     0.00s
+[SELECTOR] Selected method: coerce_to_array (/testbed/pandas/core/arrays/integer.py:182)
+[RUN LOG] select-method          deterministic     0.02s
+
+[ANALYZER] Analyzing selected method: coerce_to_array
+[OpenCode] read: /testbed/pandas/core/arrays/integer.py (error)
+[OpenCode] read: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/pandas/core/arrays/integer.py (completed)
+[OpenCode] read: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/pandas/core/arrays/integer.py (completed)
+[OpenCode] grep: def is_numeric_na in /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed (completed)
+[OpenCode] read: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/pandas/_libs/missing.pyx (completed)
+[OpenCode] grep: def checknull in /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/pandas/_libs/missing.pyx (completed)
+[OpenCode] grep: checknull in /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/pandas/_libs/missing.pyx (completed)
+[OpenCode] read: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/pandas/_libs/missing.pyx (completed)
+[OpenCode] search_energy_refactorings: Similar energy refactorings (completed)
+[OpenCode] grep: energy_smell in /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed (completed)
+[OpenCode] invalid: Invalid Tool (completed)
+[OpenCode] read: /testbed/pandas/core/arrays/integer.py (error)
+[OpenCode] grep: is_integer_dtype|is_float_dtype|is_object_dtype|is_string_dtype|is_bool_dtype in /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/pandas/core/arrays/integer.py (completed)
+[OpenCode] ```yaml
+[OpenCode] analysis:
+[OpenCode]   energy_smell:
+[OpenCode]     - method: "coerce_to_array"
+[OpenCode]       path: "/home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/pandas/core/arrays/integer.py"
+[OpenCode]       measured_self_seconds: 4.5
+[OpenCode]       measured_percent: 72.39
+[OpenCode]       type: "C4.S7"
+[OpenCode]       problem: "coerce_to_array unconditionally calls libmissing.is_numeric_na(values), which scans every element even for integer arrays that cannot contain NA and for float arrays where a vectorized check is cheaper."
+[OpenCode]       energy_impact: "Skips the O(n) per-element NA scan for integer arrays and uses vectorized NaN detection for float arrays."
+[OpenCode]       refactoring: |-
+[OpenCode]         if mask is None:
+[OpenCode]             if is_integer_dtype(values):
+[OpenCode]                 mask = np.zeros(len(values), dtype=bool)
+[OpenCode]             elif is_float_dtype(values):
+[OpenCode]                 mask = np.isnan(values)
+[OpenCode]             else:
+[OpenCode]                 mask = libmissing.is_numeric_na(values)
+[OpenCode] ```
+[ANALYZER] Analysis:
+analysis:
+  energy_smell:
+  - method: coerce_to_array
+    path: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/pandas/core/arrays/integer.py
+    measured_self_seconds: 4.5
+    measured_percent: 72.39
+    type: C4.S7
+    problem: coerce_to_array unconditionally calls libmissing.is_numeric_na(values),
+      which scans every element even for integer arrays that cannot contain NA and
+      for float arrays where a vectorized check is cheaper.
+    energy_impact: Skips the O(n) per-element NA scan for integer arrays and uses
+      vectorized NaN detection for float arrays.
+    refactoring: "if mask is None:\n    if is_integer_dtype(values):\n        mask\
+      \ = np.zeros(len(values), dtype=bool)\n    elif is_float_dtype(values):\n  \
+      \      mask = np.isnan(values)\n    else:\n        mask = libmissing.is_numeric_na(values)"
+[RUN LOG] analyzer               agent           106.94s  tokens=351044  (in 97660 / out 866 / cache 244416)  calls=1  method=coerce_to_array
+[BACKUP] Iteration 1: copying 75 candidate file(s) before the refactor runs
+[BACKUP]   MISSING, nothing to copy: /testbed/pandas/core/arrays/integer.py
+[BACKUP]   /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py -> 000-workload.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/core/_methods.py
+[BACKUP]   MISSING, nothing to copy: /opt/miniconda3/envs/testbed/lib/python3.8/textwrap.py
+[BACKUP]   MISSING, nothing to copy: /opt/miniconda3/envs/testbed/lib/python3.8/re.py
+[BACKUP]   MISSING, nothing to copy: /opt/miniconda3/envs/testbed/lib/python3.8/subprocess.py
+[BACKUP]   MISSING, nothing to copy: /testbed/pandas/core/dtypes/dtypes.py
+[BACKUP]   MISSING, nothing to copy: /opt/miniconda3/envs/testbed/lib/python3.8/collections/__init__.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/compat/_inspect.py
+[BACKUP]   MISSING, nothing to copy: /opt/miniconda3/envs/testbed/lib/python3.8/enum.py
+[BACKUP]   MISSING, nothing to copy: /testbed/pandas/core/dtypes/base.py
+[BACKUP]   MISSING, nothing to copy: /opt/miniconda3/envs/testbed/lib/python3.8/sre_parse.py
+[BACKUP]   MISSING, nothing to copy: /opt/miniconda3/envs/testbed/lib/python3.8/sre_compile.py
+[BACKUP]   MISSING, nothing to copy: /testbed/pandas/core/construction.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/core/getlimits.py
+[BACKUP]   MISSING, nothing to copy: /testbed/pandas/core/strings/accessor.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/__init__.py
+[BACKUP]   MISSING, nothing to copy: /opt/miniconda3/envs/testbed/lib/python3.8/abc.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/core/overrides.py
+[BACKUP]   MISSING, nothing to copy: /opt/miniconda3/envs/testbed/lib/python3.8/hashlib.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/tz/tz.py
+[BACKUP]   MISSING, nothing to copy: /testbed/pandas/util/_decorators.py
+[BACKUP]   MISSING, nothing to copy: /testbed/pandas/core/arrays/masked.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/utils.py
+[BACKUP]   MISSING, nothing to copy: /testbed/pandas/core/arrays/sparse/dtype.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/compute.py
+[BACKUP]   MISSING, nothing to copy: /opt/miniconda3/envs/testbed/lib/python3.8/inspect.py
+[BACKUP]   MISSING, nothing to copy: /opt/miniconda3/envs/testbed/lib/python3.8/site.py
+[BACKUP]   MISSING, nothing to copy: /opt/miniconda3/envs/testbed/lib/python3.8/logging/__init__.py
+[BACKUP]   MISSING, nothing to copy: /opt/miniconda3/envs/testbed/lib/python3.8/copy.py
+[BACKUP]   MISSING, nothing to copy: /opt/miniconda3/envs/testbed/lib/python3.8/timeit.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/ma/core.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/ma/extras.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/vendored/docscrape.py
+[BACKUP]   MISSING, nothing to copy: /testbed/pandas/core/indexes/extension.py
+[BACKUP]   MISSING, nothing to copy: /opt/miniconda3/envs/testbed/lib/python3.8/functools.py
+[BACKUP]   MISSING, nothing to copy: /opt/miniconda3/envs/testbed/lib/python3.8/typing.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/util.py
+[BACKUP]   MISSING, nothing to copy: /testbed/pandas/core/indexes/base.py
+[BACKUP]   MISSING, nothing to copy: /opt/miniconda3/envs/testbed/lib/python3.8/dataclasses.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/core/fromnumeric.py
+[BACKUP]   MISSING, nothing to copy: /testbed/pandas/core/dtypes/common.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/dev__pandas-45434/workload.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/greenrefia/work/pandas-dev__pandas-45434/testbed/core/_methods.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/8/textwrap.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/8/re.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/8/subprocess.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/8/collections/__init__.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/greenrefia/work/pandas-dev__pandas-45434/testbed/compat/_inspect.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/8/enum.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/8/sre_parse.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/8/sre_compile.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/greenrefia/work/pandas-dev__pandas-45434/testbed/core/getlimits.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/greenrefia/work/pandas-dev__pandas-45434/testbed/__init__.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/8/abc.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/greenrefia/work/pandas-dev__pandas-45434/testbed/core/overrides.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/8/hashlib.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/greenrefia/work/pandas-dev__pandas-45434/testbed/tz/tz.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/greenrefia/work/pandas-dev__pandas-45434/testbed/utils.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/greenrefia/work/pandas-dev__pandas-45434/testbed/compute.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/8/inspect.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/8/site.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/8/logging/__init__.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/8/copy.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/8/timeit.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/greenrefia/work/pandas-dev__pandas-45434/testbed/ma/core.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/greenrefia/work/pandas-dev__pandas-45434/testbed/ma/extras.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/greenrefia/work/pandas-dev__pandas-45434/testbed/vendored/docscrape.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/8/functools.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/8/typing.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/greenrefia/work/pandas-dev__pandas-45434/testbed/util.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/8/dataclasses.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/greenrefia/work/pandas-dev__pandas-45434/testbed/core/fromnumeric.py
+[BACKUP]   /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/pandas/core/arrays/integer.py -> 001-integer.py
+[BACKUP]   MISSING, nothing to copy: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/greenrefia/work/pandas-dev__pandas-45434/testbed/pandas/core/arrays/integer.py
+[BACKUP] Copies in /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/backups/iter1
+[RUN LOG] iteration-backup       deterministic     0.02s  method=coerce_to_array
+[REFACTOR] Applying the analyzer's proposal
+[OpenCode] skill: refactor (completed)
+[OpenCode] read: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/pandas/core/arrays/integer.py (completed)
+[OpenCode] edit: pandas/core/arrays/integer.py (completed)
+[OpenCode] bash: python -c "import ast; ast.parse(open('/home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/pandas/core/arrays/integer.py').read()); print('ok')" (completed)
+[OpenCode] ```yaml
+[OpenCode] refactor_report:
+[OpenCode]   scope: coerce_to_array in pandas/core/arrays/integer.py
+[OpenCode]   changes:
+[OpenCode]     - method: coerce_to_array
+[OpenCode]       path: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/pandas/core/arrays/integer.py
+[OpenCode]       line: 181
+[OpenCode]       before: >-
+[OpenCode]         mask = libmissing.is_numeric_na(values) unconditionally scanned every element
+[OpenCode]       after: >-
+[OpenCode]         integer arrays get an all-False mask, float arrays use np.isnan, otherwise libmissing.is_numeric_na
+[OpenCode]       addresses: C4.S7
+[OpenCode]       results: exact
+[OpenCode]   skipped: []
+[OpenCode]   files_modified:
+[OpenCode]     - /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/pandas/core/arrays/integer.py
+[OpenCode]   summary: >-
+[OpenCode]     1 method changed, 0 skipped; biggest saving is skipping the O(n) per-element NA scan for integer arrays
+[OpenCode] ```
+[REFACTOR] Changes applied:
+refactor_report:
+  scope: coerce_to_array in pandas/core/arrays/integer.py
+  changes:
+  - method: coerce_to_array
+    path: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/pandas/core/arrays/integer.py
+    line: 181
+    before: mask = libmissing.is_numeric_na(values) unconditionally scanned every
+      element
+    after: integer arrays get an all-False mask, float arrays use np.isnan, otherwise
+      libmissing.is_numeric_na
+    addresses: C4.S7
+    results: exact
+  skipped: []
+  files_modified:
+  - /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/pandas/core/arrays/integer.py
+  summary: 1 method changed, 0 skipped; biggest saving is skipping the O(n) per-element
+    NA scan for integer arrays
+[RUN LOG] refactor               agent             8.31s  tokens=59639   (in 19361 / out 476 / cache 39616)  calls=1  method=coerce_to_array
+[BUILD PROJECT] 1 command(s)
+[BUILD PROJECT] (1/1) $ docker exec -w /testbed greenrefia-e69842b1f006 /opt/miniconda3/envs/testbed/bin/python setup.py build_ext -j 4 -i
+[BUILD PROJECT] cwd: /testbed
+[BUILD PROJECT] status=PASSED exit_code=0 duration=59.115s
+running build_ext
+building 'pandas._libs.algos' extension
+creating build/temp.linux-x86_64-cpython-38/pandas/_libs
+building 'pandas._libs.arrays' extension
+gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /opt/miniconda3/envs/testbed/include -fPIC -O2 -isystem /opt/miniconda3/envs/testbed/include -fPIC -DNPY_NO_DEPRECATED_API=0 -I/opt/miniconda3/envs/testbed/lib/python3.8/site-packages/numpy/core/include -I/opt/miniconda3/envs/testbed/include/python3.8 -c pandas/_libs/arrays.c -o build/temp.linux-x86_64-cpython-38/pandas/_libs/arrays.o
+building 'pandas._libs.groupby' extension
+gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /opt/miniconda3/envs/testbed/include -fPIC -O2 -isystem /opt/miniconda3/envs/testbed/include -fPIC -DNPY_NO_DEPRECATED_API=0 -I./pandas/_libs -Ipandas/_libs/src/klib -I/opt/miniconda3/envs/testbed/lib/python3.8/site-packages/numpy/core/include -I/opt/miniconda3/envs/testbed/include/python3.8 -c pandas/_libs/algos.c -o build/temp.linux-x86_64-cpython-38/pandas/_libs/algos.o
+building 'pandas._libs.hashing' extension
+gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /opt/miniconda3/envs/testbed/include -fPIC -O2 -isystem /opt/miniconda3/envs/testbed/include -fPIC -DNPY_NO_DEPRECATED_API=0 -I./pandas/_libs -I/opt/miniconda3/envs/testbed/lib/python3.8/site-packages/numpy/core/include -I/opt/miniconda3/envs/testbed/include/python3.8 -c pandas/_libs/groupby.c -o build/temp.linux-x86_64-cpython-38/pandas/_libs/groupby.o
+gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /opt/miniconda3/envs/testbed/include -fPIC -O2 -isystem /opt/miniconda3/envs/testbed/include -fPIC -DNPY_NO_DEPRECATED_API=0 -I./pandas/_libs -I/opt/miniconda3/envs/testbed/lib/python3.8/site-packages/numpy/core/include -I/opt/miniconda3/envs/testbed/include/python3.8 -c pandas/_libs/hashing.c -o build/temp.linux-x86_64-cpython-38/pandas/_libs/hashing.o
+creating build/lib.linux-x86_64-cpython-38/pandas/_libs
+gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -shared -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/miniconda3/envs/testbed/lib -Wl,-rpath-link,/opt/miniconda3/envs/testbed/lib -L/opt/miniconda3/envs/testbed/lib -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/miniconda3/envs/testbed/lib -Wl,-rpath-link,/opt/miniconda3/envs/testbed/lib -L/opt/miniconda3/envs/testbed/lib build/temp.linux-x86_64-cpython-38/pandas/_libs/arrays.o -o build/lib.linux-x86_64-cpython-38/pandas/_libs/arrays.cpython-38-x86_64-linux-gnu.so
+building 'pandas._libs.hashtable' extension
+gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /opt/miniconda3/envs/testbed/include -fPIC -O2 -isystem /opt/miniconda3/envs/testbed/include -fPIC -DNPY_NO_DEPRECATED_API=0 -Ipandas/_libs/src/klib -I/opt/miniconda3/envs/testbed/lib/python3.8/site-packages/numpy/core/include -I/opt/miniconda3/envs/testbed/lib/python3.8/site-packages/numpy/core/include -I/opt/miniconda3/envs/testbed/lib/python3.8/site-packages/numpy/core/include -I/opt/miniconda3/envs/testbed/lib/python3.8/site-packages/numpy/core/include -I/opt/miniconda3/envs/testbed/lib/python3.8/site-packages/numpy/core/include -I/opt/miniconda3/envs/testbed/lib/python3.8/site-packages/numpy/core/include -I/opt/miniconda3/envs/testbed/lib/python3.8/site-packages/numpy/core/include -I/opt/miniconda3/envs/testbed/include/python3.8 -c pandas/_libs/hashtable.c -o build/temp.linux-x86_64-cpython-38/pandas/_libs/hashtable.o
+gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -shared -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/miniconda3/envs/testbed/lib -Wl,-rpath-link,/opt/miniconda3/envs/testbed/lib -L/opt/miniconda3/envs/testbed/lib -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/miniconda3/envs/testbed/lib -Wl,-rpath-link,/opt/miniconda3/envs/testbed/lib -L/opt/miniconda3/envs/testbed/lib build/temp.linux-x86_64-cpython-38/pandas/_libs/hashing.o -o build/lib.linux-x86_64-cpython-38/pandas/_libs/hashing.cpython-38-x86_64-linux-gnu.so
+building 'pandas._libs.index' extension
+gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /opt/miniconda3/envs/testbed/include -fPIC -O2 -isystem /opt/miniconda3/envs/testbed/include -fPIC -DNPY_NO_DEPRECATED_API=0 -I./pandas/_libs/tslibs -Ipandas/_libs/src/klib -I/opt/miniconda3/envs/testbed/lib/python3.8/site-packages/numpy/core/include -I/opt/miniconda3/envs/testbed/include/python3.8 -c pandas/_libs/index.c -o build/temp.linux-x86_64-cpython-38/pandas/_libs/index.o
+gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -shared -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/miniconda3/envs/testbed/lib -Wl,-rpath-link,/opt/miniconda3/envs/testbed/lib -L/opt/miniconda3/envs/testbed/lib -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/miniconda3/envs/testbed/lib -Wl,-rpath-link,/opt/miniconda3/envs/testbed/lib -L/opt/miniconda3/envs/testbed/lib build/temp.linux-x86_64-cpython-38/pandas/_libs/index.o -o build/lib.linux-x86_64-cpython-38/pandas/_libs/index.cpython-38-x86_64-linux-gnu.so
+building 'pandas._libs.indexing' extension
+gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /opt/miniconda3/envs/testbed/include -fPIC -O2 -isystem /opt/miniconda3/envs/testbed/include -fPIC -DNPY_NO_DEPRECATED_API=0 -I/opt/miniconda3/envs/testbed/lib/python3.8/site-packages/numpy/core/include -I/opt/miniconda3/envs/testbed/include/python3.8 -c pandas/_libs/indexing.c -o build/temp.linux-x86_64-cpython-38/pandas/_libs/indexing.o
+gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -shared -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/miniconda3/envs/testbed/lib -Wl,-rpath-link,/opt/miniconda3/envs/testbed/lib -L/opt/miniconda3/envs/testbed/lib -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/miniconda3/envs/testbed/lib -Wl,-rpath-link,/opt/miniconda3/envs/testbed/lib -L/opt/miniconda3/envs/testbed/lib build/temp.linux-x86_64-cpython-38/pandas/_libs/indexing.o -o build/lib.linux-x86_64-cpython-38/pandas/_libs/indexing.cpython-38-x86_64-linux-gnu.so
+building 'pandas._libs.internals' extension
+gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /opt/miniconda3/envs/testbed/include -fPIC -O2 -isystem /opt/miniconda3/envs/testbed/include -fPIC -DNPY_NO_DEPRECATED_API=0 -I./pandas/_libs -I/opt/miniconda3/envs/testbed/lib/python3.8/site-packages/numpy/core/include -I/opt/miniconda3/envs/testbed/include/python3.8 -c pandas/_libs/internals.c -o build/temp.linux-x86_64-cpython-38/pandas/_libs/internals.o
+gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -shared -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/miniconda3/envs/testbed/lib -Wl,-rpath-link,/opt/miniconda3/envs/testbed/lib -L/opt/miniconda3/envs/testbed/lib -Wl,--allow-shlib-undefined -Wl,-rpath,/opt/miniconda3/envs/testbed/lib -Wl,-rpath-link,/opt/miniconda3/envs/testbed/lib -L/opt/miniconda3/envs/testbed/lib build/temp.linux-x86_64-cpython-38/pandas/_libs/internals.o -o build/lib.linux-x86_64-cpython-38/pandas/_libs/internals.cpython-38-x86_64-linux-gnu.so
+building 'pandas._libs.interval' extension
+gcc -pthread -B /opt/miniconda3/envs/testbed/compiler_compat -Wno-unused-result -Wsign-compare -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /opt/miniconda3/envs/testbed/include -fPIC -O2 -isystem /opt/miniconda3/envs/testbed/include -fPIC -DNPY_NO_DEPRECATED_API=0 -I./pandas/_libs/tslibs -Ipandas/_libs/src/klib -I/opt/miniconda3/envs/testbed/lib/python3.8/site-packages/numpy
+... [truncated]
+[BUILD] Environment ready and project built
+[RUN LOG] build-round            deterministic    59.12s  method=coerce_to_array
+
+[TEST] Running the scoped tests
+[TEST] (1/1) $ docker exec -w /testbed greenrefia-e69842b1f006 /opt/miniconda3/envs/testbed/bin/python -m pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors -m not slow and not network and not db and not single_cpu /testbed/pandas/tests/arrays/boolean/test_arithmetic.py /testbed/pandas/tests/arrays/boolean/test_astype.py /testbed/pandas/tests/arrays/boolean/test_comparison.py /testbed/pandas/tests/arrays/boolean/test_construction.py /testbed/pandas/tests/arrays/boolean/test_function.py /testbed/pandas/tests/arrays/boolean/test_indexing.py /testbed/pandas/tests/arrays/boolean/test_logical.py /testbed/pandas/tests/arrays/boolean/test_ops.py /testbed/pandas/tests/arrays/boolean/test_reduction.py /testbed/pandas/tests/arrays/boolean/test_repr.py /testbed/pandas/tests/arrays/floating/test_arithmetic.py /testbed/pandas/tests/arrays/floating/test_astype.py /testbed/pandas/tests/arrays/floating/test_comparison.py /testbed/pandas/tests/arrays/floating/test_concat.py /testbed/pandas/tests/arrays/floating/test_construction.py /testbed/pandas/tests/arrays/floating/test_function.py /testbed/pandas/tests/arrays/floating/test_repr.py /testbed/pandas/tests/arrays/floating/test_to_numpy.py /testbed/pandas/tests/arrays/integer/test_arithmetic.py /testbed/pandas/tests/arrays/integer/test_comparison.py /testbed/pandas/tests/arrays/integer/test_concat.py /testbed/pandas/tests/arrays/integer/test_construction.py /testbed/pandas/tests/arrays/integer/test_dtypes.py /testbed/pandas/tests/arrays/integer/test_function.py /testbed/pandas/tests/arrays/integer/test_indexing.py /testbed/pandas/tests/arrays/integer/test_repr.py /testbed/pandas/tests/arrays/masked/test_arithmetic.py /testbed/pandas/tests/arrays/masked/test_function.py /testbed/pandas/tests/arrays/masked/test_indexing.py /testbed/pandas/tests/arrays/test_array.py /testbed/pandas/tests/arrays/test_datetimes.py /testbed/pandas/tests/arrays/test_ndarray_backed.py /testbed/pandas/tests/arrays/test_numpy.py /testbed/pandas/tests/arrays/test_period.py /testbed/pandas/tests/arrays/test_timedeltas.py /testbed/pandas/tests/base/test_conversion.py /testbed/pandas/tests/base/test_misc.py /testbed/pandas/tests/extension/test_boolean.py /testbed/pandas/tests/extension/test_categorical.py /testbed/pandas/tests/extension/test_common.py /testbed/pandas/tests/extension/test_extension.py /testbed/pandas/tests/extension/test_floating.py /testbed/pandas/tests/extension/test_integer.py /testbed/pandas/tests/extension/test_numpy.py /testbed/pandas/tests/frame/methods/test_sort_index.py /testbed/pandas/tests/frame/methods/test_sort_values.py /testbed/pandas/tests/indexes/multi/test_lexsort.py /testbed/pandas/tests/indexes/multi/test_sorting.py /testbed/pandas/tests/indexes/ranges/test_range.py /testbed/pandas/tests/indexes/test_base.py /testbed/pandas/tests/indexes/test_common.py /testbed/pandas/tests/series/methods/test_argsort.py /testbed/pandas/tests/series/methods/test_sort_index.py /testbed/pandas/tests/series/methods/test_sort_values.py /testbed/pandas/tests/test_algos.py /testbed/pandas/tests/test_sorting.py /testbed/pandas/tests/test_take.py -k not test_complibs and not test_loc_setitem_empty_append_raises and not arrow and not pyarrow --deselect pandas/tests/arrays/test_array.py::test_array_inference[data7-expected7]
+[TEST] cwd: /testbed
+[TEST] status=PASSED exit_code=0 duration=77.208s
+============================= test session starts ==============================
+platform linux -- Python 3.8.20, pytest-8.3.4, pluggy-1.5.0 -- /opt/miniconda3/envs/testbed/bin/python
+hypothesis profile 'ci' -> deadline=timedelta(milliseconds=500), suppress_health_check=[HealthCheck.too_slow], database=DirectoryBasedExampleDatabase(PosixPath('/testbed/.hypothesis/examples'))
+rootdir: /testbed
+configfile: pyproject.toml
+plugins: anyio-4.5.0, hypothesis-6.113.0, xdist-3.6.1, asyncio-0.24.0, cov-5.0.0, instafail-0.5.0
+asyncio: mode=strict, default_loop_scope=None
+collecting ... collected 14321 items / 123 deselected / 14198 selected
+pandas/tests/arrays/boolean/test_arithmetic.py::test_add_mul[add] PASSED
+pandas/tests/arrays/boolean/test_arithmetic.py::test_add_mul[mul] PASSED
+pandas/tests/arrays/boolean/test_arithmetic.py::test_sub PASSED
+pandas/tests/arrays/boolean/test_arithmetic.py::test_div PASSED
+pandas/tests/arrays/boolean/test_arithmetic.py::test_op_int8[floordiv] PASSED
+pandas/tests/arrays/boolean/test_arithmetic.py::test_op_int8[mod] PASSED
+pandas/tests/arrays/boolean/test_arithmetic.py::test_op_int8[pow] XFAIL
+pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__add__] PASSED
+pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__radd__] PASSED
+pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__sub__] PASSED
+pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__rsub__] PASSED
+pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__mul__] PASSED
+pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__rmul__] PASSED
+pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__floordiv__] PASSED
+pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__rfloordiv__] PASSED
+pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__truediv__] PASSED
+pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__rtruediv__] PASSED
+pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__pow__] PASSED
+pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__rpow__] PASSED
+pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__mod__] PASSED
+pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__rmod__] PASSED
+pandas/tests/arrays/boolean/test_astype.py::test_astype PASSED
+pandas/tests/arrays/boolean/test_astype.py::test_astype_to_boolean_array PASSED
+pandas/tests/arrays/boolean/test_astype.py::test_astype_to_integer_array PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_compare_scalar[eq] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_compare_scalar[ne] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_compare_scalar[gt] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_compare_scalar[ge] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_compare_scalar[lt] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_compare_scalar[le] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_compare_array[eq] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_compare_array[ne] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_compare_array[gt] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_compare_array[ge] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_compare_array[lt] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_compare_array[le] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[eq-True] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[eq-False] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[eq-other2] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[ne-True] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[ne-False] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[ne-other2] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[gt-True] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[gt-False] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[gt-other2] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[ge-True] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[ge-False] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[ge-other2] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[lt-True] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[lt-False] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[lt-other2] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[le-True] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[le-False] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[le-other2] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_array[eq] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_array[ne] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_array[gt] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_array[ge] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_array[lt] PASSED
+pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_array[le] PASSED
+pandas/tests/arrays/boolean/test_construction.py::test_boolean_array_constructor PASSED
+pandas/tests/arrays/boolean/test_construction.py::test_boolean_array_constructor_copy PASSED
+pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array PASSED
+pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_all_none PASSED
+pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_missing_indicators[a0-b0] PASSED
+pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_missing_indicators[a1-b1] PASSED
+pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_missing_indicators[a2-b2] PASSED
+pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_missing_indicators[a3-b3] PASSED
+pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_missing_indicators[a4-b4] PASSED
+pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_error[values0] PASSED
+pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_error[values1] PASSED
+pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_error[values2] PASSED
+pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_error[values3] PASSED
+pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_error[values4] PASSED
+pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_error[values5] PASSED
+pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_error[values6] PASSED
+pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_error[values7] PASSED
+pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_error[values8] PASSED
+pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_from_integer_array PASSED
+pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_from_float_array PASSED
+pandas/test
+... [truncated]
+[RUN LOG] test-round             deterministic    77.22s  method=coerce_to_array
+[RUN LOG] energy-round           deterministic     0.12s  method=coerce_to_array
+[WORKLOAD] 10 measured repetitions
+[WORKLOAD] Letting the machine settle for 60s before the measured repetition
+[WORKLOAD] (1/1) $ docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run1.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+[WORKLOAD] cwd: /testbed
+[WORKLOAD] status=PASSED exit_code=0 duration=1.943s
+py-spy> Sampling process 100 times a second. Press Control-C to exit.
+Mean: 0.00948069841000688
+Std Dev: 0.0021577318823761526
+py-spy> Stopped sampling because process exited
+py-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run1.speedscope.json'. Samples: 192 Errors: 0
+py-spy> Visit https://www.speedscope.app/ to view
+ Performance counter stats for 'system wide':
+             66.92 Joules power/energy-pkg/                                           
+       1.886060430 seconds time elapsed
+[WORKLOAD] Letting the machine settle for 60s before the measured repetition
+[WORKLOAD] (1/1) $ docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run2.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+[WORKLOAD] cwd: /testbed
+[WORKLOAD] status=PASSED exit_code=0 duration=1.881s
+py-spy> Sampling process 100 times a second. Press Control-C to exit.
+Mean: 0.009035627249904792
+Std Dev: 0.0015140946524428325
+py-spy> Stopped sampling because process exited
+py-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run2.speedscope.json'. Samples: 186 Errors: 0
+py-spy> Visit https://www.speedscope.app/ to view
+ Performance counter stats for 'system wide':
+             67.02 Joules power/energy-pkg/                                           
+       1.829321090 seconds time elapsed
+[WORKLOAD] Letting the machine settle for 60s before the measured repetition
+[WORKLOAD] (1/1) $ docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run3.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+[WORKLOAD] cwd: /testbed
+[WORKLOAD] status=PASSED exit_code=0 duration=1.932s
+py-spy> Sampling process 100 times a second. Press Control-C to exit.
+Mean: 0.009506828729754488
+Std Dev: 0.001419713572516049
+py-spy> Stopped sampling because process exited
+py-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run3.speedscope.json'. Samples: 198 Errors: 0
+py-spy> Visit https://www.speedscope.app/ to view
+ Performance counter stats for 'system wide':
+             67.24 Joules power/energy-pkg/                                           
+       1.880613452 seconds time elapsed
+[WORKLOAD] Letting the machine settle for 60s before the measured repetition
+[WORKLOAD] (1/1) $ docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run4.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+[WORKLOAD] cwd: /testbed
+[WORKLOAD] status=PASSED exit_code=0 duration=1.889s
+py-spy> Sampling process 100 times a second. Press Control-C to exit.
+Mean: 0.009245627880009124
+Std Dev: 0.0015475990505845558
+py-spy> Stopped sampling because process exited
+py-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run4.speedscope.json'. Samples: 168 Errors: 0
+py-spy> Visit https://www.speedscope.app/ to view
+ Performance counter stats for 'system wide':
+             65.87 Joules power/energy-pkg/                                           
+       1.839627022 seconds time elapsed
+[WORKLOAD] Letting the machine settle for 60s before the measured repetition
+[WORKLOAD] (1/1) $ docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run5.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+[WORKLOAD] cwd: /testbed
+[WORKLOAD] status=PASSED exit_code=0 duration=1.923s
+py-spy> Sampling process 100 times a second. Press Control-C to exit.
+Mean: 0.009068240389788117
+Std Dev: 0.0019295903641770875
+py-spy> Stopped sampling because process exited
+py-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run5.speedscope.json'. Samples: 192 Errors: 0
+py-spy> Visit https://www.speedscope.app/ to view
+ Performance counter stats for 'system wide':
+             66.25 Joules power/energy-pkg/                                           
+       1.866439083 seconds time elapsed
+[WORKLOAD] Letting the machine settle for 60s before the measured repetition
+[WORKLOAD] (1/1) $ docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run6.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+[WORKLOAD] cwd: /testbed
+[WORKLOAD] status=PASSED exit_code=0 duration=1.945s
+py-spy> Sampling process 100 times a second. Press Control-C to exit.
+Mean: 0.009465539969896781
+Std Dev: 0.0015202693326042706
+py-spy> Stopped sampling because process exited
+py-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run6.speedscope.json'. Samples: 168 Errors: 1
+py-spy> Visit https://www.speedscope.app/ to view
+ Performance counter stats for 'system wide':
+             66.50 Joules power/energy-pkg/                                           
+       1.891861691 seconds time elapsed
+[WORKLOAD] Letting the machine settle for 60s before the measured repetition
+[WORKLOAD] (1/1) $ docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run7.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+[WORKLOAD] cwd: /testbed
+[WORKLOAD] status=PASSED exit_code=0 duration=1.942s
+py-spy> Sampling process 100 times a second. Press Control-C to exit.
+Mean: 0.009173565109704214
+Std Dev: 0.0018443493629286237
+py-spy> Stopped sampling because process exited
+py-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run7.speedscope.json'. Samples: 169 Errors: 0
+py-spy> Visit https://www.speedscope.app/ to view
+ Performance counter stats for 'system wide':
+             66.53 Joules power/energy-pkg/                                           
+       1.887244127 seconds time elapsed
+[WORKLOAD] Letting the machine settle for 60s before the measured repetition
+[WORKLOAD] (1/1) $ docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run8.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+[WORKLOAD] cwd: /testbed
+[WORKLOAD] status=PASSED exit_code=0 duration=1.954s
+py-spy> Sampling process 100 times a second. Press Control-C to exit.
+Mean: 0.009652541579780518
+Std Dev: 0.0015561428687391166
+py-spy> Stopped sampling because process exited
+py-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run8.speedscope.json'. Samples: 204 Errors: 2
+py-spy> Visit https://www.speedscope.app/ to view
+ Performance counter stats for 'system wide':
+             67.68 Joules power/energy-pkg/                                           
+       1.903076313 seconds time elapsed
+[WORKLOAD] Letting the machine settle for 60s before the measured repetition
+[WORKLOAD] (1/1) $ docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run9.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+[WORKLOAD] cwd: /testbed
+[WORKLOAD] status=PASSED exit_code=0 duration=1.922s
+py-spy> Sampling process 100 times a second. Press Control-C to exit.
+Mean: 0.00966410764009197
+Std Dev: 0.0015889028991870103
+py-spy> Stopped sampling because process exited
+py-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run9.speedscope.json'. Samples: 152 Errors: 0
+py-spy> Visit https://www.speedscope.app/ to view
+ Performance counter stats for 'system wide':
+             67.19 Joules power/energy-pkg/                                           
+       1.871289393 seconds time elapsed
+[WORKLOAD] Letting the machine settle for 60s before the measured repetition
+[WORKLOAD] (1/1) $ docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run10.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+[WORKLOAD] cwd: /testbed
+[WORKLOAD] status=PASSED exit_code=0 duration=2.018s
+py-spy> Sampling process 100 times a second. Press Control-C to exit.
+Mean: 0.009931146819908462
+Std Dev: 0.0018084253393237202
+py-spy> Stopped sampling because process exited
+py-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run10.speedscope.json'. Samples: 212 Errors: 0
+py-spy> Visit https://www.speedscope.app/ to view
+ Performance counter stats for 'system wide':
+             68.18 Joules power/energy-pkg/                                           
+       1.963583125 seconds time elapsed
+[WORKLOAD] Workload executed successfully: 10/10 run(s) exited 0
+[WORKLOAD] Top methods by self time
+   Self time  Method                                   Location
+      0.570s  setup                                    /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py:10
+      0.490s  _values_for_argsort                      /testbed/pandas/core/arrays/integer.py:323
+      0.453s  _amin                                    /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/core/_methods.py:45
+      0.044s  _any                                     /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/core/_methods.py:58
+      0.034s  coerce_to_array                          /testbed/pandas/core/arrays/integer.py:163
+[WORKLOAD] Machine energy: 66.938 J (mean of 10 repetitions)
+[WORKLOAD] Idle sleep: 6.412 W * 1.882s = 12.067 J
+[WORKLOAD] Workload energy: 54.872 J (machine - idle sleep)
+[RUN LOG] benchmark-round        deterministic   619.39s  method=coerce_to_array
+[EVALUATE] Iteration 1
+[EVALUATE]   energy:      54.872 J (previous 167.025 J)
+[EVALUATE]   self time:   0.034s in coerce_to_array (previous 4.5s)
+[METHOD LOG] coerce_to_array  machine=207.384->66.938J  benchmark=167.025->54.872J  decision=improved
+[EVALUATE]   improved. Round 1 is kept; no methods remain, stopping the workflow.
+[RUN LOG] iteration-evaluate     deterministic     0.34s  method=coerce_to_array
+[CONTAINER] Removed greenrefia-e69842b1f006
+=== ANALYSIS ===
+analysis:
+  energy_smell:
+  - method: coerce_to_array
+    path: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/pandas/core/arrays/integer.py
+    measured_self_seconds: 4.5
+    measured_percent: 72.39
+    type: C4.S7
+    problem: coerce_to_array unconditionally calls libmissing.is_numeric_na(values),
+      which scans every element even for integer arrays that cannot contain NA and
+      for float arrays where a vectorized check is cheaper.
+    energy_impact: Skips the O(n) per-element NA scan for integer arrays and uses
+      vectorized NaN detection for float arrays.
+    refactoring: "if mask is None:\n    if is_integer_dtype(values):\n        mask\
+      \ = np.zeros(len(values), dtype=bool)\n    elif is_float_dtype(values):\n  \
+      \      mask = np.isnan(values)\n    else:\n        mask = libmissing.is_numeric_na(values)"
+=== REFACTOR ===
+refactor_report:
+  scope: coerce_to_array in pandas/core/arrays/integer.py
+  changes:
+  - method: coerce_to_array
+    path: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/pandas/core/arrays/integer.py
+    line: 181
+    before: mask = libmissing.is_numeric_na(values) unconditionally scanned every
+      element
+    after: integer arrays get an all-False mask, float arrays use np.isnan, otherwise
+      libmissing.is_numeric_na
+    addresses: C4.S7
+    results: exact
+  skipped: []
+  files_modified:
+  - /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/pandas/core/arrays/integer.py
+  summary: 1 method changed, 0 skipped; biggest saving is skipping the O(n) per-element
+    NA scan for integer arrays
+=== BUILD ===
+  PASSED  [build]  docker exec -w /testbed greenrefia-e69842b1f006 /opt/miniconda3/envs/testbed/bin/python setup.py build_ext -j 4 -i
+=== SCOPED TEST REPORT ===
+test_report:
+  status: PASSED
+  scope:
+    requested: pandas-dev__pandas-45434
+  runner: pytest
+  commands:
+  - target: covering_tests
+    phase: null
+    purpose: null
+    command: docker exec -w /testbed greenrefia-e69842b1f006 /opt/miniconda3/envs/testbed/bin/python
+      -m pytest -v -rA --tb=long -p no:cacheprovider --continue-on-collection-errors
+      -m not slow and not network and not db and not single_cpu /testbed/pandas/tests/arrays/boolean/test_arithmetic.py
+      /testbed/pandas/tests/arrays/boolean/test_astype.py /testbed/pandas/tests/arrays/boolean/test_comparison.py
+      /testbed/pandas/tests/arrays/boolean/test_construction.py /testbed/pandas/tests/arrays/boolean/test_function.py
+      /testbed/pandas/tests/arrays/boolean/test_indexing.py /testbed/pandas/tests/arrays/boolean/test_logical.py
+      /testbed/pandas/tests/arrays/boolean/test_ops.py /testbed/pandas/tests/arrays/boolean/test_reduction.py
+      /testbed/pandas/tests/arrays/boolean/test_repr.py /testbed/pandas/tests/arrays/floating/test_arithmetic.py
+      /testbed/pandas/tests/arrays/floating/test_astype.py /testbed/pandas/tests/arrays/floating/test_comparison.py
+      /testbed/pandas/tests/arrays/floating/test_concat.py /testbed/pandas/tests/arrays/floating/test_construction.py
+      /testbed/pandas/tests/arrays/floating/test_function.py /testbed/pandas/tests/arrays/floating/test_repr.py
+      /testbed/pandas/tests/arrays/floating/test_to_numpy.py /testbed/pandas/tests/arrays/integer/test_arithmetic.py
+      /testbed/pandas/tests/arrays/integer/test_comparison.py /testbed/pandas/tests/arrays/integer/test_concat.py
+      /testbed/pandas/tests/arrays/integer/test_construction.py /testbed/pandas/tests/arrays/integer/test_dtypes.py
+      /testbed/pandas/tests/arrays/integer/test_function.py /testbed/pandas/tests/arrays/integer/test_indexing.py
+      /testbed/pandas/tests/arrays/integer/test_repr.py /testbed/pandas/tests/arrays/masked/test_arithmetic.py
+      /testbed/pandas/tests/arrays/masked/test_function.py /testbed/pandas/tests/arrays/masked/test_indexing.py
+      /testbed/pandas/tests/arrays/test_array.py /testbed/pandas/tests/arrays/test_datetimes.py
+      /testbed/pandas/tests/arrays/test_ndarray_backed.py /testbed/pandas/tests/arrays/test_numpy.py
+      /testbed/pandas/tests/arrays/test_period.py /testbed/pandas/tests/arrays/test_timedeltas.py
+      /testbed/pandas/tests/base/test_conversion.py /testbed/pandas/tests/base/test_misc.py
+      /testbed/pandas/tests/extension/test_boolean.py /testbed/pandas/tests/extension/test_categorical.py
+      /testbed/pandas/tests/extension/test_common.py /testbed/pandas/tests/extension/test_extension.py
+      /testbed/pandas/tests/extension/test_floating.py /testbed/pandas/tests/extension/test_integer.py
+      /testbed/pandas/tests/extension/test_numpy.py /testbed/pandas/tests/frame/methods/test_sort_index.py
+      /testbed/pandas/tests/frame/methods/test_sort_values.py /testbed/pandas/tests/indexes/multi/test_lexsort.py
+      /testbed/pandas/tests/indexes/multi/test_sorting.py /testbed/pandas/tests/indexes/ranges/test_range.py
+      /testbed/pandas/tests/indexes/test_base.py /testbed/pandas/tests/indexes/test_common.py
+      /testbed/pandas/tests/series/methods/test_argsort.py /testbed/pandas/tests/series/methods/test_sort_index.py
+      /testbed/pandas/tests/series/methods/test_sort_values.py /testbed/pandas/tests/test_algos.py
+      /testbed/pandas/tests/test_sorting.py /testbed/pandas/tests/test_take.py -k
+      not test_complibs and not test_loc_setitem_empty_append_raises and not arrow
+      and not pyarrow --deselect pandas/tests/arrays/test_array.py::test_array_inference[data7-expected7]
+    working_directory: /testbed
+    warmup: false
+    status: PASSED
+    exit_code: 0
+    duration_seconds: 77.208
+    timed_out: false
+    output: '============================= test session starts ==============================
+
+      platform linux -- Python 3.8.20, pytest-8.3.4, pluggy-1.5.0 -- /opt/miniconda3/envs/testbed/bin/python
+
+      hypothesis profile ''ci'' -> deadline=timedelta(milliseconds=500), suppress_health_check=[HealthCheck.too_slow],
+      database=DirectoryBasedExampleDatabase(PosixPath(''/testbed/.hypothesis/examples''))
+
+      rootdir: /testbed
+
+      configfile: pyproject.toml
+
+      plugins: anyio-4.5.0, hypothesis-6.113.0, xdist-3.6.1, asyncio-0.24.0, cov-5.0.0,
+      instafail-0.5.0
+
+      asyncio: mode=strict, default_loop_scope=None
+
+      collecting ... collected 14321 items / 123 deselected / 14198 selected
+
+
+      pandas/tests/arrays/boolean/test_arithmetic.py::test_add_mul[add] PASSED
+
+      pandas/tests/arrays/boolean/test_arithmetic.py::test_add_mul[mul] PASSED
+
+      pandas/tests/arrays/boolean/test_arithmetic.py::test_sub PASSED
+
+      pandas/tests/arrays/boolean/test_arithmetic.py::test_div PASSED
+
+      pandas/tests/arrays/boolean/test_arithmetic.py::test_op_int8[floordiv] PASSED
+
+      pandas/tests/arrays/boolean/test_arithmetic.py::test_op_int8[mod] PASSED
+
+      pandas/tests/arrays/boolean/test_arithmetic.py::test_op_int8[pow] XFAIL
+
+      pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__add__]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__radd__]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__sub__]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__rsub__]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__mul__]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__rmul__]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__floordiv__]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__rfloordiv__]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__truediv__]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__rtruediv__]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__pow__]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__rpow__]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__mod__]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_arithmetic.py::test_error_invalid_values[__rmod__]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_astype.py::test_astype PASSED
+
+      pandas/tests/arrays/boolean/test_astype.py::test_astype_to_boolean_array PASSED
+
+      pandas/tests/arrays/boolean/test_astype.py::test_astype_to_integer_array PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_compare_scalar[eq]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_compare_scalar[ne]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_compare_scalar[gt]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_compare_scalar[ge]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_compare_scalar[lt]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_compare_scalar[le]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_compare_array[eq]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_compare_array[ne]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_compare_array[gt]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_compare_array[ge]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_compare_array[lt]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_compare_array[le]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[eq-True]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[eq-False]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[eq-other2]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[ne-True]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[ne-False]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[ne-other2]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[gt-True]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[gt-False]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[gt-other2]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[ge-True]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[ge-False]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[ge-other2]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[lt-True]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[lt-False]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[lt-other2]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[le-True]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[le-False]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_scalar[le-other2]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_array[eq]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_array[ne]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_array[gt]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_array[ge]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_array[lt]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_comparison.py::TestComparisonOps::test_array[le]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_construction.py::test_boolean_array_constructor
+      PASSED
+
+      pandas/tests/arrays/boolean/test_construction.py::test_boolean_array_constructor_copy
+      PASSED
+
+      pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array PASSED
+
+      pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_all_none
+      PASSED
+
+      pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_missing_indicators[a0-b0]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_missing_indicators[a1-b1]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_missing_indicators[a2-b2]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_missing_indicators[a3-b3]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_missing_indicators[a4-b4]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_error[values0]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_error[values1]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_error[values2]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_error[values3]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_error[values4]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_error[values5]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_error[values6]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_error[values7]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_error[values8]
+      PASSED
+
+      pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_from_integer_array
+      PASSED
+
+      pandas/tests/arrays/boolean/test_construction.py::test_to_boolean_array_from_float_array
+      PASSED
+
+      pandas/test
+
+      ... [truncated]'
+    output_truncated: true
+  execution:
+    executed: true
+  summary:
+    message: Ran 1 command(s); 1 succeeded.
+=== SCOPED BENCHMARK REPORT ===
+benchmark_report:
+  status: PASSED
+  scope:
+    requested: pandas-dev__pandas-45434
+  runner: perf stat -e power/energy-pkg/ wrapping py-spy 0.4.3
+  commands:
+  - target: workload
+    phase: null
+    purpose: energy+profile
+    command: docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/
+      -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run1.speedscope.json
+      -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+    working_directory: /testbed
+    warmup: false
+    status: PASSED
+    exit_code: 0
+    duration_seconds: 1.943
+    timed_out: false
+    output: "py-spy> Sampling process 100 times a second. Press Control-C to exit.\n\
+      \nMean: 0.00948069841000688\nStd Dev: 0.0021577318823761526\n\npy-spy> Stopped\
+      \ sampling because process exited\npy-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run1.speedscope.json'.\
+      \ Samples: 192 Errors: 0\npy-spy> Visit https://www.speedscope.app/ to view\n\
+      \n\n Performance counter stats for 'system wide':\n\n             66.92 Joules\
+      \ power/energy-pkg/                                           \n\n       1.886060430\
+      \ seconds time elapsed"
+    output_truncated: false
+  - target: workload
+    phase: null
+    purpose: energy+profile
+    command: docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/
+      -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run2.speedscope.json
+      -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+    working_directory: /testbed
+    warmup: false
+    status: PASSED
+    exit_code: 0
+    duration_seconds: 1.881
+    timed_out: false
+    output: "py-spy> Sampling process 100 times a second. Press Control-C to exit.\n\
+      \nMean: 0.009035627249904792\nStd Dev: 0.0015140946524428325\n\npy-spy> Stopped\
+      \ sampling because process exited\npy-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run2.speedscope.json'.\
+      \ Samples: 186 Errors: 0\npy-spy> Visit https://www.speedscope.app/ to view\n\
+      \n\n Performance counter stats for 'system wide':\n\n             67.02 Joules\
+      \ power/energy-pkg/                                           \n\n       1.829321090\
+      \ seconds time elapsed"
+    output_truncated: false
+  - target: workload
+    phase: null
+    purpose: energy+profile
+    command: docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/
+      -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run3.speedscope.json
+      -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+    working_directory: /testbed
+    warmup: false
+    status: PASSED
+    exit_code: 0
+    duration_seconds: 1.932
+    timed_out: false
+    output: "py-spy> Sampling process 100 times a second. Press Control-C to exit.\n\
+      \nMean: 0.009506828729754488\nStd Dev: 0.001419713572516049\n\npy-spy> Stopped\
+      \ sampling because process exited\npy-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run3.speedscope.json'.\
+      \ Samples: 198 Errors: 0\npy-spy> Visit https://www.speedscope.app/ to view\n\
+      \n\n Performance counter stats for 'system wide':\n\n             67.24 Joules\
+      \ power/energy-pkg/                                           \n\n       1.880613452\
+      \ seconds time elapsed"
+    output_truncated: false
+  - target: workload
+    phase: null
+    purpose: energy+profile
+    command: docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/
+      -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run4.speedscope.json
+      -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+    working_directory: /testbed
+    warmup: false
+    status: PASSED
+    exit_code: 0
+    duration_seconds: 1.889
+    timed_out: false
+    output: "py-spy> Sampling process 100 times a second. Press Control-C to exit.\n\
+      \nMean: 0.009245627880009124\nStd Dev: 0.0015475990505845558\n\npy-spy> Stopped\
+      \ sampling because process exited\npy-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run4.speedscope.json'.\
+      \ Samples: 168 Errors: 0\npy-spy> Visit https://www.speedscope.app/ to view\n\
+      \n\n Performance counter stats for 'system wide':\n\n             65.87 Joules\
+      \ power/energy-pkg/                                           \n\n       1.839627022\
+      \ seconds time elapsed"
+    output_truncated: false
+  - target: workload
+    phase: null
+    purpose: energy+profile
+    command: docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/
+      -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run5.speedscope.json
+      -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+    working_directory: /testbed
+    warmup: false
+    status: PASSED
+    exit_code: 0
+    duration_seconds: 1.923
+    timed_out: false
+    output: "py-spy> Sampling process 100 times a second. Press Control-C to exit.\n\
+      \nMean: 0.009068240389788117\nStd Dev: 0.0019295903641770875\n\npy-spy> Stopped\
+      \ sampling because process exited\npy-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run5.speedscope.json'.\
+      \ Samples: 192 Errors: 0\npy-spy> Visit https://www.speedscope.app/ to view\n\
+      \n\n Performance counter stats for 'system wide':\n\n             66.25 Joules\
+      \ power/energy-pkg/                                           \n\n       1.866439083\
+      \ seconds time elapsed"
+    output_truncated: false
+  - target: workload
+    phase: null
+    purpose: energy+profile
+    command: docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/
+      -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run6.speedscope.json
+      -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+    working_directory: /testbed
+    warmup: false
+    status: PASSED
+    exit_code: 0
+    duration_seconds: 1.945
+    timed_out: false
+    output: "py-spy> Sampling process 100 times a second. Press Control-C to exit.\n\
+      \nMean: 0.009465539969896781\nStd Dev: 0.0015202693326042706\n\npy-spy> Stopped\
+      \ sampling because process exited\npy-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run6.speedscope.json'.\
+      \ Samples: 168 Errors: 1\npy-spy> Visit https://www.speedscope.app/ to view\n\
+      \n\n Performance counter stats for 'system wide':\n\n             66.50 Joules\
+      \ power/energy-pkg/                                           \n\n       1.891861691\
+      \ seconds time elapsed"
+    output_truncated: false
+  - target: workload
+    phase: null
+    purpose: energy+profile
+    command: docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/
+      -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run7.speedscope.json
+      -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+    working_directory: /testbed
+    warmup: false
+    status: PASSED
+    exit_code: 0
+    duration_seconds: 1.942
+    timed_out: false
+    output: "py-spy> Sampling process 100 times a second. Press Control-C to exit.\n\
+      \nMean: 0.009173565109704214\nStd Dev: 0.0018443493629286237\n\npy-spy> Stopped\
+      \ sampling because process exited\npy-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run7.speedscope.json'.\
+      \ Samples: 169 Errors: 0\npy-spy> Visit https://www.speedscope.app/ to view\n\
+      \n\n Performance counter stats for 'system wide':\n\n             66.53 Joules\
+      \ power/energy-pkg/                                           \n\n       1.887244127\
+      \ seconds time elapsed"
+    output_truncated: false
+  - target: workload
+    phase: null
+    purpose: energy+profile
+    command: docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/
+      -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run8.speedscope.json
+      -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+    working_directory: /testbed
+    warmup: false
+    status: PASSED
+    exit_code: 0
+    duration_seconds: 1.954
+    timed_out: false
+    output: "py-spy> Sampling process 100 times a second. Press Control-C to exit.\n\
+      \nMean: 0.009652541579780518\nStd Dev: 0.0015561428687391166\n\npy-spy> Stopped\
+      \ sampling because process exited\npy-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run8.speedscope.json'.\
+      \ Samples: 204 Errors: 2\npy-spy> Visit https://www.speedscope.app/ to view\n\
+      \n\n Performance counter stats for 'system wide':\n\n             67.68 Joules\
+      \ power/energy-pkg/                                           \n\n       1.903076313\
+      \ seconds time elapsed"
+    output_truncated: false
+  - target: workload
+    phase: null
+    purpose: energy+profile
+    command: docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/
+      -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run9.speedscope.json
+      -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+    working_directory: /testbed
+    warmup: false
+    status: PASSED
+    exit_code: 0
+    duration_seconds: 1.922
+    timed_out: false
+    output: "py-spy> Sampling process 100 times a second. Press Control-C to exit.\n\
+      \nMean: 0.00966410764009197\nStd Dev: 0.0015889028991870103\n\npy-spy> Stopped\
+      \ sampling because process exited\npy-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run9.speedscope.json'.\
+      \ Samples: 152 Errors: 0\npy-spy> Visit https://www.speedscope.app/ to view\n\
+      \n\n Performance counter stats for 'system wide':\n\n             67.19 Joules\
+      \ power/energy-pkg/                                           \n\n       1.871289393\
+      \ seconds time elapsed"
+    output_truncated: false
+  - target: workload
+    phase: null
+    purpose: energy+profile
+    command: docker exec -w /testbed greenrefia-e69842b1f006 perf stat -e power/energy-pkg/
+      -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run10.speedscope.json
+      -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+    working_directory: /testbed
+    warmup: false
+    status: PASSED
+    exit_code: 0
+    duration_seconds: 2.018
+    timed_out: false
+    output: "py-spy> Sampling process 100 times a second. Press Control-C to exit.\n\
+      \nMean: 0.009931146819908462\nStd Dev: 0.0018084253393237202\n\npy-spy> Stopped\
+      \ sampling because process exited\npy-spy> Wrote speedscope file to '/home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run10.speedscope.json'.\
+      \ Samples: 212 Errors: 0\npy-spy> Visit https://www.speedscope.app/ to view\n\
+      \n\n Performance counter stats for 'system wide':\n\n             68.18 Joules\
+      \ power/energy-pkg/                                           \n\n       1.963583125\
+      \ seconds time elapsed"
+    output_truncated: false
+  execution:
+    executed: true
+  summary:
+    message: Ran 10 command(s); 10 succeeded.
+  metrics:
+    machine_id: 2302feb1965e72c1
+    energy_joules: 54.872
+    energy_joules_samples:
+    - 54.827
+    - 55.291
+    - 55.182
+    - 54.075
+    - 54.283
+    - 54.37
+    - 54.43
+    - 55.478
+    - 55.192
+    - 55.59
+    energy_joules_min: 54.075
+    energy_joules_max: 55.59
+    elapsed_seconds: 1.882
+    elapsed_seconds_samples:
+    - 1.88606043
+    - 1.82932109
+    - 1.880613452
+    - 1.839627022
+    - 1.866439083
+    - 1.891861691
+    - 1.887244127
+    - 1.903076313
+    - 1.871289393
+    - 1.963583125
+    repetitions: 10
+    profile: /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run1.speedscope.json
+    profiles:
+    - /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run1.speedscope.json
+    - /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run2.speedscope.json
+    - /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run3.speedscope.json
+    - /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run4.speedscope.json
+    - /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run5.speedscope.json
+    - /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run6.speedscope.json
+    - /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run7.speedscope.json
+    - /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run8.speedscope.json
+    - /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run9.speedscope.json
+    - /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run10.speedscope.json
+    profile_present: true
+    profile_usable: true
+    hot_methods_file: /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/iter1.hot_methods.md
+    profiled_seconds: 1.841
+    profile_scope_match: all
+    hot_functions:
+    - method: setup
+      file: /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+      line: 10
+      self_seconds: 0.57
+      percent: 30.96
+    - method: _values_for_argsort
+      file: /testbed/pandas/core/arrays/integer.py
+      line: 323
+      self_seconds: 0.49
+      percent: 26.62
+    - method: _amin
+      file: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/core/_methods.py
+      line: 45
+      self_seconds: 0.453
+      percent: 24.61
+    - method: _any
+      file: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/core/_methods.py
+      line: 58
+      self_seconds: 0.044
+      percent: 2.39
+    - method: coerce_to_array
+      file: /testbed/pandas/core/arrays/integer.py
+      line: 163
+      self_seconds: 0.034
+      percent: 1.85
+    - method: dedent
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/textwrap.py
+      line: 431
+      self_seconds: 0.011
+      percent: 0.6
+    - method: namedtuple
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/collections/__init__.py
+      line: 456
+      self_seconds: 0.004
+      percent: 0.22
+    - method: sub
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/re.py
+      line: 210
+      self_seconds: 0.004
+      percent: 0.22
+    - method: _parse
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/sre_parse.py
+      line: 495
+      self_seconds: 0.004
+      percent: 0.22
+    - method: array
+      file: /testbed/pandas/core/construction.py
+      line: 298
+      self_seconds: 0.003
+      percent: 0.16
+    - method: _execute_child
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/subprocess.py
+      line: 1655
+      self_seconds: 0.002
+      percent: 0.11
+    - method: _parse_summary
+      file: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/vendored/docscrape.py
+      line: 364
+      self_seconds: 0.002
+      percent: 0.11
+    - method: deepcopy
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/copy.py
+      line: 137
+      self_seconds: 0.002
+      percent: 0.11
+    - method: __init__
+      file: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/vendored/docscrape.py
+      line: 157
+      self_seconds: 0.002
+      percent: 0.11
+    - method: __init__
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/inspect.py
+      line: 2491
+      self_seconds: 0.002
+      percent: 0.11
+    - method: _is_sunder
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/enum.py
+      line: 39
+      self_seconds: 0.001
+      percent: 0.05
+    - method: _make_signature
+      file: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/compute.py
+      line: 272
+      self_seconds: 0.001
+      percent: 0.05
+    - method: __init__
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/selectors.py
+      line: 213
+      self_seconds: 0.001
+      percent: 0.05
+    - method: append
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/sre_parse.py
+      line: 173
+      self_seconds: 0.001
+      percent: 0.05
+    - method: __get_openssl_constructor
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/hashlib.py
+      line: 131
+      self_seconds: 0.001
+      percent: 0.05
+    - method: __init__
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/typing.py
+      line: 505
+      self_seconds: 0.001
+      percent: 0.05
+    - method: _is_at_section
+      file: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/vendored/docscrape.py
+      line: 186
+      self_seconds: 0.001
+      percent: 0.05
+    - method: workload
+      file: /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+      line: 15
+      self_seconds: 0.001
+      percent: 0.05
+    - method: seterr
+      file: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/core/_ufunc_config.py
+      line: 128
+      self_seconds: 0.001
+      percent: 0.05
+    - method: cleandoc
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/inspect.py
+      line: 631
+      self_seconds: 0.001
+      percent: 0.05
+    - method: __init__
+      file: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/tz/tz.py
+      line: 464
+      self_seconds: 0.001
+      percent: 0.05
+    - method: DataFrame
+      file: /testbed/pandas/core/frame.py
+      line: 4636
+      self_seconds: 0.001
+      percent: 0.05
+    - method: __setitem__
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/sre_parse.py
+      line: 169
+      self_seconds: 0.001
+      percent: 0.05
+    - method: __call__
+      file: /testbed/pandas/util/_decorators.py
+      line: 489
+      self_seconds: 0.001
+      percent: 0.05
+    - method: _wrapreduction
+      file: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/core/fromnumeric.py
+      line: 73
+      self_seconds: 0.001
+      percent: 0.05
+    - method: update_wrapper
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/functools.py
+      line: 49
+      self_seconds: 0.001
+      percent: 0.05
+    - method: inner
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/contextlib.py
+      line: 75
+      self_seconds: 0.001
+      percent: 0.05
+    - method: _make_global_functions
+      file: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/compute.py
+      line: 323
+      self_seconds: 0.001
+      percent: 0.05
+    - method: timeit
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/timeit.py
+      line: 174
+      self_seconds: 0.001
+      percent: 0.05
+    - method: _optimize_charset
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/sre_compile.py
+      line: 300
+      self_seconds: 0.001
+      percent: 0.05
+    - method: _is_dunder
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/enum.py
+      line: 28
+      self_seconds: 0.001
+      percent: 0.05
+    - method: uname
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/platform.py
+      line: 767
+      self_seconds: 0.001
+      percent: 0.05
+    - method: __new__
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/enum.py
+      line: 635
+      self_seconds: 0.001
+      percent: 0.05
+    - method: _exact_ratio
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/statistics.py
+      line: 235
+      self_seconds: 0.001
+      percent: 0.05
+    - method: _register
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/importlib/abc.py
+      line: 21
+      self_seconds: 0.001
+      percent: 0.05
+    - method: __delitem__
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/os.py
+      line: 688
+      self_seconds: 0.001
+      percent: 0.05
+    - method: groups
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/sre_parse.py
+      line: 83
+      self_seconds: 0.001
+      percent: 0.05
+    - method: seek_next_non_empty_line
+      file: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/vendored/docscrape.py
+      line: 65
+      self_seconds: 0.001
+      percent: 0.05
+    - method: __call__
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/enum.py
+      line: 339
+      self_seconds: 0.001
+      percent: 0.05
+    - method: InfinityType
+      file: /testbed/pandas/util/version/__init__.py
+      line: 39
+      self_seconds: 0.001
+      percent: 0.05
+    - method: _decorate_compute_function
+      file: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/compute.py
+      line: 165
+      self_seconds: 0.001
+      percent: 0.05
+    - method: _compile
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/sre_compile.py
+      line: 131
+      self_seconds: 0.001
+      percent: 0.05
+    - method: SparseDtype
+      file: /testbed/pandas/core/arrays/sparse/dtype.py
+      line: 174
+      self_seconds: 0.001
+      percent: 0.05
+    - method: construct_from_string
+      file: /testbed/pandas/core/dtypes/dtypes.py
+      line: 900
+      self_seconds: 0.001
+      percent: 0.05
+    - method: _display_as_base
+      file: /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/core/_exceptions.py
+      line: 27
+      self_seconds: 0.001
+      percent: 0.05
+    - method: __setitem__
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/enum.py
+      line: 110
+      self_seconds: 0.001
+      percent: 0.05
+    - method: __getitem__
+      file: /opt/miniconda3/envs/testbed/lib/python3.8/calendar.py
+      line: 82
+      self_seconds: 0.001
+      percent: 0.05
+    - method: PandasExtensionDtype
+      file: /testbed/pandas/core/dtypes/dtypes.py
+      line: 106
+      self_seconds: 0.001
+      percent: 0.05
+    outside_scope_functions:
+    - method: _call_with_frames_removed
+      file: <frozen importlib._bootstrap>
+      line: 219
+      self_seconds: 0.054
+      percent: 2.93
+    - method: _compile_bytecode
+      file: <frozen importlib._bootstrap_external>
+      line: 640
+      self_seconds: 0.037
+      percent: 2.01
+    - method: get_data
+      file: <frozen importlib._bootstrap_external>
+      line: 1033
+      self_seconds: 0.009
+      percent: 0.49
+    - method: _path_stat
+      file: <frozen importlib._bootstrap_external>
+      line: 142
+      self_seconds: 0.006
+      percent: 0.33
+    - method: _path_join
+      file: <frozen importlib._bootstrap_external>
+      line: 123
+      self_seconds: 0.004
+      percent: 0.22
+    - method: _get_module_lock
+      file: <frozen importlib._bootstrap>
+      line: 187
+      self_seconds: 0.004
+      percent: 0.22
+    - method: _check_name_wrapper
+      file: <frozen importlib._bootstrap_external>
+      line: 522
+      self_seconds: 0.002
+      percent: 0.11
+    - method: exec_module
+      file: <frozen importlib._bootstrap_external>
+      line: 843
+      self_seconds: 0.002
+      percent: 0.11
+    - method: _load_unlocked
+      file: <frozen importlib._bootstrap>
+      line: 671
+      self_seconds: 0.002
+      percent: 0.11
+    - method: cache_from_source
+      file: <frozen importlib._bootstrap_external>
+      line: 381
+      self_seconds: 0.002
+      percent: 0.11
+    - method: _fill_cache
+      file: <frozen importlib._bootstrap_external>
+      line: 1553
+      self_seconds: 0.001
+      percent: 0.05
+    - method: acquire
+      file: <frozen importlib._bootstrap>
+      line: 88
+      self_seconds: 0.001
+      percent: 0.05
+    overhead_seconds: 0.037
+    repetitions_requested: 10
+    repetitions_read: 10
+    repetitions_averaged: 10
+    unreadable_profiles: []
+    machine_energy_joules: 66.938
+    machine_energy_joules_samples:
+    - 66.92
+    - 67.02
+    - 67.24
+    - 65.87
+    - 66.25
+    - 66.5
+    - 66.53
+    - 67.68
+    - 67.19
+    - 68.18
+    machine_energy_joules_min: 65.87
+    machine_energy_joules_max: 68.18
+    benchmark_energy_joules: 54.872
+    benchmark_energy_joules_samples:
+    - 54.827
+    - 55.291
+    - 55.182
+    - 54.075
+    - 54.283
+    - 54.37
+    - 54.43
+    - 55.478
+    - 55.192
+    - 55.59
+    benchmark_energy_joules_min: 54.075
+    benchmark_energy_joules_max: 55.59
+    idle_energy_joules: 12.067
+    energy_joules_baseline_subtracted: true
+    baseline_power_watts: 6.411671556173852
+    baseline_energy_joules: 384.71
+    baseline_time_seconds: 60.0015139
+=== WORKLOAD METRICS ===
+machine_energy_joules: 66.938 (mean of 10 repetitions)
+idle_energy_joules: 12.067 (baseline 6.411671556173852 W * 1.882s)
+benchmark_energy_joules: 54.872 (mean of 10 repetitions)
+elapsed_seconds: 1.882 (mean of 10 repetitions)
+profiles: 10 repetitions, averaged
+  /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run1.speedscope.json
+  /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run2.speedscope.json
+  /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run3.speedscope.json
+  /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run4.speedscope.json
+  /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run5.speedscope.json
+  /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run6.speedscope.json
+  /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run7.speedscope.json
+  /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run8.speedscope.json
+  /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run9.speedscope.json
+  /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run10.speedscope.json
+  hottest methods: /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/iter1.hot_methods.md
+=== HOT FUNCTIONS (self time, all source frames, mean of 10 repetitions) ===
+  0.57s 30.96%  setup  /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py:10
+  0.49s 26.62%  _values_for_argsort  /testbed/pandas/core/arrays/integer.py:323
+  0.453s 24.61%  _amin  /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/core/_methods.py:45
+  0.044s 2.39%  _any  /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/core/_methods.py:58
+  0.034s 1.85%  coerce_to_array  /testbed/pandas/core/arrays/integer.py:163
+  0.011s 0.6%  dedent  /opt/miniconda3/envs/testbed/lib/python3.8/textwrap.py:431
+  0.004s 0.22%  namedtuple  /opt/miniconda3/envs/testbed/lib/python3.8/collections/__init__.py:456
+  0.004s 0.22%  sub  /opt/miniconda3/envs/testbed/lib/python3.8/re.py:210
+  0.004s 0.22%  _parse  /opt/miniconda3/envs/testbed/lib/python3.8/sre_parse.py:495
+  0.003s 0.16%  array  /testbed/pandas/core/construction.py:298
+  0.002s 0.11%  _execute_child  /opt/miniconda3/envs/testbed/lib/python3.8/subprocess.py:1655
+  0.002s 0.11%  _parse_summary  /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/vendored/docscrape.py:364
+  0.002s 0.11%  deepcopy  /opt/miniconda3/envs/testbed/lib/python3.8/copy.py:137
+  0.002s 0.11%  __init__  /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/vendored/docscrape.py:157
+  0.002s 0.11%  __init__  /opt/miniconda3/envs/testbed/lib/python3.8/inspect.py:2491
+  0.001s 0.05%  _is_sunder  /opt/miniconda3/envs/testbed/lib/python3.8/enum.py:39
+  0.001s 0.05%  _make_signature  /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/compute.py:272
+  0.001s 0.05%  __init__  /opt/miniconda3/envs/testbed/lib/python3.8/selectors.py:213
+  0.001s 0.05%  append  /opt/miniconda3/envs/testbed/lib/python3.8/sre_parse.py:173
+  0.001s 0.05%  __get_openssl_constructor  /opt/miniconda3/envs/testbed/lib/python3.8/hashlib.py:131
+  0.001s 0.05%  __init__  /opt/miniconda3/envs/testbed/lib/python3.8/typing.py:505
+  0.001s 0.05%  _is_at_section  /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/vendored/docscrape.py:186
+  0.001s 0.05%  workload  /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py:15
+  0.001s 0.05%  seterr  /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/core/_ufunc_config.py:128
+  0.001s 0.05%  cleandoc  /opt/miniconda3/envs/testbed/lib/python3.8/inspect.py:631
+  0.001s 0.05%  __init__  /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/tz/tz.py:464
+  0.001s 0.05%  DataFrame  /testbed/pandas/core/frame.py:4636
+  0.001s 0.05%  __setitem__  /opt/miniconda3/envs/testbed/lib/python3.8/sre_parse.py:169
+  0.001s 0.05%  __call__  /testbed/pandas/util/_decorators.py:489
+  0.001s 0.05%  _wrapreduction  /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/core/fromnumeric.py:73
+  0.001s 0.05%  update_wrapper  /opt/miniconda3/envs/testbed/lib/python3.8/functools.py:49
+  0.001s 0.05%  inner  /opt/miniconda3/envs/testbed/lib/python3.8/contextlib.py:75
+  0.001s 0.05%  _make_global_functions  /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/compute.py:323
+  0.001s 0.05%  timeit  /opt/miniconda3/envs/testbed/lib/python3.8/timeit.py:174
+  0.001s 0.05%  _optimize_charset  /opt/miniconda3/envs/testbed/lib/python3.8/sre_compile.py:300
+  0.001s 0.05%  _is_dunder  /opt/miniconda3/envs/testbed/lib/python3.8/enum.py:28
+  0.001s 0.05%  uname  /opt/miniconda3/envs/testbed/lib/python3.8/platform.py:767
+  0.001s 0.05%  __new__  /opt/miniconda3/envs/testbed/lib/python3.8/enum.py:635
+  0.001s 0.05%  _exact_ratio  /opt/miniconda3/envs/testbed/lib/python3.8/statistics.py:235
+  0.001s 0.05%  _register  /opt/miniconda3/envs/testbed/lib/python3.8/importlib/abc.py:21
+  0.001s 0.05%  __delitem__  /opt/miniconda3/envs/testbed/lib/python3.8/os.py:688
+  0.001s 0.05%  groups  /opt/miniconda3/envs/testbed/lib/python3.8/sre_parse.py:83
+  0.001s 0.05%  seek_next_non_empty_line  /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/vendored/docscrape.py:65
+  0.001s 0.05%  __call__  /opt/miniconda3/envs/testbed/lib/python3.8/enum.py:339
+  0.001s 0.05%  InfinityType  /testbed/pandas/util/version/__init__.py:39
+  0.001s 0.05%  _decorate_compute_function  /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/compute.py:165
+  0.001s 0.05%  _compile  /opt/miniconda3/envs/testbed/lib/python3.8/sre_compile.py:131
+  0.001s 0.05%  SparseDtype  /testbed/pandas/core/arrays/sparse/dtype.py:174
+  0.001s 0.05%  construct_from_string  /testbed/pandas/core/dtypes/dtypes.py:900
+  0.001s 0.05%  _display_as_base  /home/carlos/.greenrefia/work/pandas-dev__pandas-45434/testbed/core/_exceptions.py:27
+  0.001s 0.05%  __setitem__  /opt/miniconda3/envs/testbed/lib/python3.8/enum.py:110
+  0.001s 0.05%  __getitem__  /opt/miniconda3/envs/testbed/lib/python3.8/calendar.py:82
+  0.001s 0.05%  PandasExtensionDtype  /testbed/pandas/core/dtypes/dtypes.py:106
+  time outside Python source (dependencies and runner):
+    0.054s 2.93%  _call_with_frames_removed  <frozen importlib._bootstrap>
+    0.037s 2.01%  _compile_bytecode  <frozen importlib._bootstrap_external>
+    0.009s 0.49%  get_data  <frozen importlib._bootstrap_external>
+    0.006s 0.33%  _path_stat  <frozen importlib._bootstrap_external>
+    0.004s 0.22%  _path_join  <frozen importlib._bootstrap_external>
+  sampled 1.841s total, of which 0.037s is interpreter and process overhead (imports, sampler)
+=== ITERATIONS ===
+  round        bench J   spread J   sampled %  verdict
+  before       167.025       9.86           -  baseline
+  iter1          54.872       1.52         n/a  kept, and the loop stopped here, energy -67.15%
+  1 round(s) attempted, 1 kept. The target tree holds only the kept rounds.
+=== SELF TIME OF THE CHANGED METHODS (media de 10 repeticiones) ===
+  coerce_to_array: 4.5s -> 0.034s (-99.2%)
+=== INSTRUMENTED COMMANDS ===
+  [energy+profile] perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run1.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+  [energy+profile] perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run2.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+  [energy+profile] perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run3.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+  [energy+profile] perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run4.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+  [energy+profile] perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run5.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+  [energy+profile] perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run6.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+  [energy+profile] perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run7.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+  [energy+profile] perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run8.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+  [energy+profile] perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run9.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+  [energy+profile] perf stat -e power/energy-pkg/ -- py-spy record --format=speedscope --rate 100 --subprocesses -o /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/pandas-dev__pandas-45434.iter1.run10.speedscope.json -- /opt/miniconda3/envs/testbed/bin/python /home/carlos/Escritorio/greenrefia/profiles/pandas-dev__pandas-45434/workload.py
+[RUN LOG] node timings and token usage: /home/carlos/Escritorio/greenrefia/logs/events/run_20261109_142105.jsonl

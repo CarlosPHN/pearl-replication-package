@@ -1,0 +1,13 @@
+diff --git a/pandas/core/arrays/datetimelike.py b/pandas/core/arrays/datetimelike.py
+index 979ca70bad..dc58d571bb 100644
+--- a/pandas/core/arrays/datetimelike.py
++++ b/pandas/core/arrays/datetimelike.py
+@@ -936,7 +936,7 @@ class DatetimeLikeArrayMixin(OpsMixin, NDArrayBackedExtensionArray):
+             return result
+ 
+         other_vals = self._unbox(other)
+-        result = op(self._ndarray, other_vals)
++        result = op(self._ndarray.view("i8"), other_vals.view("i8"))
+ 
+         o_mask = isna(other)
+         if self._hasnans | np.any(o_mask):

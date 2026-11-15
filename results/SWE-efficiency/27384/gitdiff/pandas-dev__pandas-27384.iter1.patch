@@ -1,0 +1,13 @@
+diff --git a/pandas/core/arrays/datetimelike.py b/pandas/core/arrays/datetimelike.py
+index df17388856..656217cc21 100644
+--- a/pandas/core/arrays/datetimelike.py
++++ b/pandas/core/arrays/datetimelike.py
+@@ -347,7 +347,7 @@ class DatetimeLikeArrayMixin(ExtensionOpsMixin, AttributesMixin, ExtensionArray)
+         """
+         apply box func to passed values
+         """
+-        return lib.map_infer(values, self._box_func)
++        return lib.map_infer(values, self._box_func, convert=0)
+ 
+     def __iter__(self):
+         return (self._box_func(v) for v in self.asi8)
